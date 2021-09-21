@@ -7,7 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 input:-webkit-autofill {
-  -webkit-box-shadow: inset 0px 0px 0px 50px #080808 !important;
+  box-shadow: inset 0px 0px 0px 50px #080808 !important;
   /* Цвет фона */
   -webkit-text-fill-color: white !important;
   /* цвет текста */

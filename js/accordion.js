@@ -13,11 +13,4 @@ featureLinks.forEach((item, index) => {
 
     featureLists[index].classList.remove('hidden');
   });
-
-  if (item.classList.contains('feature__link_active')) {
-    item.addEventListener('click', () => {
-      item.classList.toggle('feature__link_active');
-      featureLists[index].classList.toggle('hidden');
-    });
-  }
 });

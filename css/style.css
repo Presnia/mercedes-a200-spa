@@ -619,6 +619,12 @@ a {
 }
 
 /* feature */
+.feature {
+  width: 100vw;
+  height: 80vh;
+  padding: 0;
+}
+
 .feature-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,7 +633,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-image: url(../img/car/image-2.png);
-  background-position: left;
+  background-position: left top;
   background-repeat: no-repeat;
   background-size: 50%;
   padding-left: 50%;
